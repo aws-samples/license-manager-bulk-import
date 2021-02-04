@@ -1,0 +1,24 @@
+windows_amis = {
+    'Windows Server Standard' : {
+        '2012 R2': 'arn:aws:ec2:us-east-1::image/ami-01234567890123456',
+        '2016': 'arn:aws:ec2:us-east-1::image/ami-01234567890123456',
+        '2019': 'arn:aws:ec2:us-east-1::image/ami-01234567890123456',
+    },
+    'Windows Server Datacenter': {
+        '2012 R2': 'arn:aws:ec2:us-east-1::image/ami-01234567890123456',
+        '2016': 'arn:aws:ec2:us-east-1::image/ami-01234567890123456',
+        '2019': 'arn:aws:ec2:us-east-1::image/ami-01234567890123456'
+    }
+}
+
+sql_amis = {
+    'SQL Server Standard' : {
+        '2012': 'arn:aws:ec2:us-east-1::image/ami-01234567890123456',
+        '2014': 'arn:aws:ec2:us-east-1::image/ami-01234567890123456',
+        '2019': 'arn:aws:ec2:us-east-1::image/ami-01234567890123456',
+    },
+    'SQL Server Enterprise': {
+        '2017': 'arn:aws:ec2:us-east-1::image/ami-01234567890123456',
+        '2019': 'arn:aws:ec2:us-east-1::image/ami-01234567890123456'
+    }
+}
